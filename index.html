@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juhi Singh | Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
+
+    <header>
+        <nav id="navbar">
+            <div class="logo">
+                <span>Juhi</span>Singh
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <input type="checkbox" id="hamburger-toggle" class="hamburger-toggle">
+            <label for="hamburger-toggle" class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </label>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="fade-in">Hi, I'm <span class="highlight">Juhi Singh</span></h1>
+                <h2 class="fade-in">Web Developer</h2>
+                <p class="fade-in">Crafting responsive and dynamic web experiences</p>
+                <div class="cta-buttons fade-in">
+                    <a href="#projects" class="btn primary">View My Work</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+                <div class="social-icons fade-in">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:justjuhi07@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="shape"></div>
+                <img src="images/juhi.jpg" alt="Juhi Singh">
+            </div>
+        </div>
+        <a href="#about" class="scroll-down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Web Developer based in Bangalore, Karnataka</h3>
+                    <p>I'm a passionate web developer currently pursuing my Bachelor's degree in Computer Science/Electronics at Kristu Jayanti College. With experience in HTML, CSS, and JavaScript, I specialize in creating responsive and user-friendly websites.</p>
+                    <p>My goal is to build digital experiences that are not only visually appealing but also functional and accessible to all users. I'm continuously expanding my skill set and staying updated with the latest web technologies.</p>
+                    <div class="about-details">
+                        <div class="detail">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Sc. in Computer Science/Electronics<br>Kristu Jayanti College, 2023-2026</p>
+                            </div>
+                        </div>
+                        <div class="detail">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Bangalore, Karnataka, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn primary">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-html5"></i></div>
+                            <h4>HTML</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+                            <h4>CSS</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-python"></i></div>
+                            <h4>Python</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-laptop-code"></i> Libraries & Frameworks</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-js"></i></div>
+                            <h4>JavaScript</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+                            <h4>Git</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon"><i class="fas fa-code"></i></div>
+                            <h4>VS Code</h4>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/todo.jpg" alt="Todo List Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Todo List</h3>
+                        <p>A simple and intuitive To-Do List application to manage daily tasks effectively with features like add, delete, and mark-as-complete for smooth task organization.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/expense.png" alt="Expense Tracker Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Expense Tracker</h3>
+                        <p>An interactive expense tracker using React.js integrated with Alan AI for voice-command functionality. Users can add, delete, and categorize transactions hands-free.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/weather.png" alt="Weather App Project">
+                        <div class="project-overlay">
+                            <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Weather App</h3>
+                        <p>A real-time weather web app using JavaScript and RapidAPI for accurate, live data retrieval with a minimalist and user-friendly interface.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience & Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">April 2025</div>
+                    <div class="timeline-content">
+                        <h3>Freelancer</h3>
+                        <h4>Upwork | Bengaluru, India</h4>
+                        <p>Developed and deployed fully responsive websites using HTML, CSS, and JavaScript.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2026</div>
+                    <div class="timeline-content">
+                        <h3>Bachelor of Science</h3>
+                        <h4>Kristu Jayanti College, Bangalore</h4>
+                        <p>Computer Science/Electronics</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>12th Standard (PCMCS)</h3>
+                        <h4>Kendriya Vidyalaya, Bangalore</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="certifications">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <h3>Introduction To Python</h3>
+                    <p>Infosys</p>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <h3>Value Added Course In Electronics</h3>
+                    <p>Kristu Jayanti College</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>justjuhi07@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>+91 6361200618</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Bangalore, Karnataka, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span>Juhi</span>Singh
+                </div>
+                <p>&copy; 2025 Juhi Singh. All Rights Reserved.</p>
+                <div class="footer-social">
+                    <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:justjuhi07@gmail.com"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="scroll-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</body>
+</html>
